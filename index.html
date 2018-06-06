@@ -200,7 +200,7 @@
 		}
 		#zt{
 			width: 30%;
-			height: 600px;
+			height: 100%;
 			overflow:auto;
 			margin-left: 2.5%;
 			border-top: 1px solid black;
@@ -208,18 +208,16 @@
 		}
 		#zt1{
 			width: 30%;
-			height: 600px;
+			height: 100%;
 			overflow:auto;
-			position: absolute;
 			margin-top: -600px;
 			margin-left: 35%;
 			border-top: 1px solid black;
 		}
 		#zt2{
 			width: 30%;
-			height: 600px;
+			height: 100%;
 			overflow:auto;
-			position: absolute;
 			margin-top: -600px;
 			margin-left: 67.5%;
 			border-top: 1px solid black;
@@ -254,6 +252,69 @@
 			#foot ul{
 				z-index: 1000;
 			}
+			#zx{
+				width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;
+			}
+			#zx1{
+				width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;
+			}
+			@media (min-width: 320px) and (max-width:414px){
+				h1{
+					font-size: 12px;
+				}
+				h3{
+					font-size: 24px;
+				}
+				#zx{
+					width: 10%;
+					margin-left: 30%;
+					margin-top: 8px;
+				}
+				#zx1{
+					width: 10%;
+					margin-right: 30%;
+					margin-top: 8px;
+				}
+				#about{
+					height: 150px;
+				}
+				#web-index{
+					height:200px;
+				}
+				#qiye{
+					margin-top: 20px;
+					
+				}
+				#qiye1{
+					margin-top: -200px;
+				
+				}
+				#zt-bj{
+					height: 200px;
+				}
+				#zt{
+					margin-top: 20px;
+				}
+				#zt1{
+					margin-top: -200px;
+				}
+				#zt2{
+					margin-top: -200px;
+				}
+				#box{
+					top: -30px;
+				}
+				#cd-nav ul{
+					right: 15%;
+				}
+				#ToTop{
+					
+				}
+				.grid{
+					margin-top: 100px;
+					height:4600px;
+				}
+			}
 	</style>
 	<script>
 		$(document).ready(function() {
@@ -265,6 +326,51 @@
     $("#d_banner").click(function() {
         $('html, body').animate({
             scrollTop: $("#banner").offset().top
+        }, 1000);
+    });
+     $("#d_banner_1").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_1").offset().top
+        }, 1000);
+    });
+     $("#d_banner_2").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_2").offset().top
+        }, 1000);
+    });
+     $("#d_banner_3").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_3").offset().top
+        }, 1000);
+    });
+     $("#d_banner_4").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_4").offset().top
+        }, 1000);
+    });
+     $("#d_banner_5").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_5").offset().top
+        }, 1000);
+    });
+     $("#d_banner_6").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_6").offset().top
+        }, 1000);
+    });
+     $("#d_banner_7").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_7").offset().top
+        }, 1000);
+    });
+     $("#d_banner_8").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_8").offset().top
+        }, 1000);
+    });
+     $("#d_banner_9").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#banner_9").offset().top
         }, 1000);
     });
     $("#d_web").click(function() {
@@ -388,16 +494,16 @@
 	                                <li class="dropdown">
 	                                    <a href="#" id="d_banner" class="dropdown-toggle" data-toggle="dropdown">banner设计</a>
 	                                    <ul class="dropdown-menu">
-	                                        <li><a href="#">初春行李箱</a></li>
-	                                        <li><a href="#">改潮换戴</a></li>
+	                                        <li><a href="#" id="d_banner_1">初春行李箱</a></li>
+	                                        <li><a href="#"id="d_banner_2">改潮换戴</a></li>
 	                                       
-	                                        <li><a href="#">邂逅夏日</a></li>
-	                                        <li><a href="#">妖精的口袋</a></li>
-	                                        <li><a href="#">耐克青春款</a></li>
-	                                        <li><a href="#">祛痘新品</a></li>
-	                                         <li><a href="#">劲酷新品</a></li>
-	                                          <li><a href="#">MOTO新机</a></li>
-	                                           <li><a href="#">丹尼尔青春派</a></li>
+	                                        <li><a href="#"id="d_banner_3">邂逅夏日</a></li>
+	                                        <li><a href="#"id="d_banner_4">妖精的口袋</a></li>
+	                                        <li><a href="#"id="d_banner_5">耐克青春款</a></li>
+	                                        <li><a href="#"id="d_banner_6">祛痘新品</a></li>
+	                                         <li><a href="#"id="d_banner_7">劲酷新品</a></li>
+	                                          <li><a href="#"id="d_banner_8">MOTO新机</a></li>
+	                                           <li><a href="#"id="d_banner_9">丹尼尔青春派</a></li>
 	                                    </ul>
 	                                </li>
 	                                 <li><a href="#" id="d_web">企业网站</a></li>
@@ -431,8 +537,8 @@
     -->
     <div id="about">
     	<h3>Self introduction</h3>
-    	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+    	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>我的介绍</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
     	<div id="wo">
@@ -456,8 +562,8 @@
     -->
     <div class="htmleaf-container" id="banner">
     	<h3>Banner design</h3>
-    	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+    	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>BANNER设计</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
 		<div class="htmleaf-content">
@@ -474,7 +580,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/1.jpg">
+									<img src="img/1.jpg" id="banner_1">
 									<div class="title">
 										<h2>初春行李箱 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -493,7 +599,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/2.jpg">
+									<img src="img/2.jpg" id="banner_2">
 									<div class="title">
 										<h2>改潮换戴 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -511,7 +617,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/3.jpg">
+									<img src="img/3.jpg"id="banner_3">
 									<div class="title">
 										<h2>邂逅夏日 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -529,7 +635,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/4.jpg">
+									<img src="img/4.jpg"id="banner_4">
 									<div class="title">
 										<h2>妖精的口袋 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -547,7 +653,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/5.jpg">
+									<img src="img/5.jpg"id="banner_5">
 									<div class="title">
 										<h2>耐克青春款 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -565,7 +671,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/6.jpg">
+									<img src="img/6.jpg"id="banner_6">
 									<div class="title">
 										<h2>祛痘新品 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -583,7 +689,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/7.jpg">
+									<img src="img/7.jpg"id="banner_7">
 									<div class="title">
 										<h2>劲酷新品 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -601,7 +707,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/8.jpg">
+									<img src="img/8.jpg"id="banner_8">
 									<div class="title">
 										<h2>MOTO新机 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -619,7 +725,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="img/9.jpg">
+									<img src="img/9.jpg"id="banner_9">
 									<div class="title">
 										<h2>丹尼尔青春派 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -640,8 +746,8 @@
     -->
     <div id="web">
     	<h3>Enterprise website</h3>
-    	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+    	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>企业网站</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
     	<div id="web-index">
@@ -661,19 +767,19 @@
     -->
      <div id="zhuanti">
      	<h3>Thematic design</h3>
-     	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+     	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>专题设计</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
     	<div id="zt-bj">
     	<div id="zt">
-    		<img src="img/儿童用品专题.jpg" class="min">
+    		<img src="img/儿童用品专题.jpg" class="min" id="img">
     	</div>
     	<div id="zt1">
-    		<img src="img/化妆品专题.jpg" class="min">
+    		<img src="img/化妆品专题.jpg" class="min"id="img">
     	</div>
     	<div id="zt2">
-    		<img src="img/百草味吃货节专题.jpg" class="min">
+    		<img src="img/百草味吃货节专题.jpg" class="min"id="img">
     	</div>
     </div>
      </div>
@@ -684,8 +790,8 @@
     -->
     <div id="taozhuang">
     	<h3>Enterprise suite</h3>
-    	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+    	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>企业套装</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
     	<body class="loading">
@@ -708,9 +814,6 @@
 			</symbol>
 		</svg>
 		<main>
-			<div class="content">
-				
-			</div>
 			<div class="content">
 				<div class="grid">
 					<a class="grid__item" href="#preview-1">
@@ -952,8 +1055,8 @@
     -->
     <div id="contact">
     	<h3>Contact me</h3>
-    	<hr style="width: 5%;float: left;margin-left: 40%;border: solid 1px #8B0000;" />
-    	<hr style="width: 5%;float: right;margin-right: 40%;border: solid 1px #8B0000;" />
+    	<hr id="zx"  />
+    	<hr id="zx1"  />
     	<h1>联系我</h1>
     	<!--<img src="img/向下(2).png" style="width: 40px;height: 40px;" class="xia"/>-->
     	<img src="img/contact.jpg" class="bj" />
